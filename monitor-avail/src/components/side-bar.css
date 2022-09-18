@@ -1,0 +1,64 @@
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: max-content;
+  height: 100vh;
+  padding: 50px 40px;
+  align-items: center;
+  margin: 0;
+  background-color: teal;
+}
+
+.sidebar-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: auto;
+}
+
+.sidebar-link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  color: white;
+}
+
+.sidebar-profile-button {
+  border: 0;
+  border-width: 0;
+  outline-width: 0;
+  text-align: center;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+  background-color: transparent;
+  border-radius: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar-profile-button-container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.active {
+  background-color: pink;
+}
+
+.active {
+  background-color: pink;
+  border-radius: 12px;
+}
+

@@ -1,0 +1,33 @@
+.container {
+  background-color: black;
+  opacity: 0.8;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: white;
+}
+
+.login-form {
+  display: flex;
+  gap: 0.6rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+  color: red;
+  margin: 0;
+}
+
+.wrapper-main {
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+}

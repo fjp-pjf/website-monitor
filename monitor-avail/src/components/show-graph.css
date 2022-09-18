@@ -1,0 +1,10 @@
+.graph-monitor {
+  margin-top: 10%;
+  width: 50%;
+  border: 2px solid black;
+  height: 50%;
+}
+
+.show {
+  min-height: 200px;
+}
